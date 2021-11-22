@@ -1,14 +1,8 @@
 import './App.css';
-import Form from '../Form/Form.js';
-import CardContainer from '../CardContainer/CardContainer.js';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <main className="App">
-      <Form />
-      <CardContainer />
-    </main>
-  );
+class App extends Component {
+
 }
 
 export default App;

@@ -1,0 +1,32 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  padding: 3px;
+}
+
+label,
+#make-card-btn {
+  margin-top: 15px;
+}
+
+#make-card-btn {
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#make-card-btn:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}

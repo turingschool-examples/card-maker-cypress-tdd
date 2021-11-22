@@ -1,13 +1,7 @@
-import Card from '../Card/Card.js';
+import './CardContainer.css';
 
 function CardContainer() {
-  return (
-    <section className="CardContainer">
-      <p>this is a container</p>
-      <Card />
-      <Card />
-    </section>
-  );
+
 }
 
 export default CardContainer;

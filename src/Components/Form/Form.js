@@ -1,9 +1,8 @@
-function Form() {
-  return (
-    <form className="Form">
-      <p>this is a form</p>
-    </form>
-  );
+import './Form.css';
+import { Component } from 'react';
+
+class Form extends Component {
+
 }
 
 export default Form;

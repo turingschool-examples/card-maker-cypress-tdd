@@ -1,0 +1,17 @@
+.Card {
+  border: 10px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  overflow: scroll;
+  text-align: center;
+}
+
+.emoji-text {
+  font-size: 48px;
+}
+
+.message-text {
+  font-style: italic;
+}

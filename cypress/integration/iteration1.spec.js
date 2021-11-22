@@ -3,23 +3,23 @@ describe('Iteration 1 - Basic App Components', () => {
     cy.visit('http://localhost:3000/')
   })
 
-  it('should have an App component', () => {
+  it.skip('should have an App component', () => {
     cy.get('main')
       .should('have.class', 'App')
   })
 
-  it('should have a title', () => {
+  it.skip('should have a title', () => {
     cy.get('h1')
       .contains('Card Creator')
   })
 
-  it('should have a Form component', () => {
+  it.skip('should have a Form component', () => {
     cy.get('form')
       .should('exist')
       .should('have.class', 'Form')
   })
 
-  it('should have correct elements in form', () => {
+  it.skip('should have correct elements in form', () => {
     cy.get('.Form select')
       .should('have.id', 'emoji')
 
@@ -39,7 +39,7 @@ describe('Iteration 1 - Basic App Components', () => {
       .should('have.id', 'make-card-btn')
   })
 
-  it('should have correct labels for form elements', () => {
+  it.skip('should have correct labels for form elements', () => {
     cy.get('label')
       .should('have.length', 4)
 
@@ -56,7 +56,7 @@ describe('Iteration 1 - Basic App Components', () => {
       .should('contain', 'Message:')
   })
 
-  it('should have the correct options for select element', () => {
+  it.skip('should have the correct options for select element', () => {
     cy.get('select option')
       .should('have.length', 4)
 
@@ -77,12 +77,12 @@ describe('Iteration 1 - Basic App Components', () => {
       .should('have.value', '🌻')
   })
 
-  it('should have a CardContainer component', () => {
+  it.skip('should have a CardContainer component', () => {
     cy.get('section')
       .should('have.class', 'CardContainer')
   })
 
-  it('should start with no Cards', () => {
+  it.skip('should start with no Cards', () => {
     cy.get('div .Card')
       .should('not.exist')
   })

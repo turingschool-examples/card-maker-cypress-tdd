@@ -48,7 +48,7 @@ describe('Iteration 4 - Deleting a Card', () => {
       .click()
   })
 
-  it('should start with 3 cards', () => {
+  it.skip('should start with 3 cards', () => {
     cy.get('.Card')
       .should('have.length', 3)
 
@@ -58,7 +58,7 @@ describe('Iteration 4 - Deleting a Card', () => {
       .should('have.id', 'delete-card-btn')
   })
 
-  it('should have 2 cards after one is deleted', () => {
+  it.skip('should have 2 cards after one is deleted', () => {
     cy.get('.Card #delete-card-btn').eq(1)
       .click()
 

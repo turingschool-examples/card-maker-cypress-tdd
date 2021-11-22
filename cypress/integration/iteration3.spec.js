@@ -3,7 +3,7 @@ describe('Iteration 3 - Error Handling', () => {
     cy.visit('http://localhost:3000/')
   })
 
-  it('should not let you make a card if the recipient is missing', () => {
+  it.skip('should not let you make a card if the recipient is missing', () => {
     cy.get('select')
     .select('🎉')
 
@@ -23,7 +23,7 @@ describe('Iteration 3 - Error Handling', () => {
       .contains('Please fill out all fields.')
   })
 
-  it('should not let you make a card if the sender is missing', () => {
+  it.skip('should not let you make a card if the sender is missing', () => {
     cy.get('select')
     .select('🎉')
 
@@ -43,7 +43,7 @@ describe('Iteration 3 - Error Handling', () => {
       .contains('Please fill out all fields.')
   })
 
-  it('should not let you make a card if the message is missing', () => {
+  it.skip('should not let you make a card if the message is missing', () => {
     cy.get('select')
     .select('🎉')
 

@@ -15,7 +15,7 @@ describe('Iteration 2 - Making a card', () => {
     .type('Happy birthday!')
   })
 
-  it('should display what the user has typed', () => {
+  it.skip('should display what the user has typed', () => {
     cy.get('#emoji')
     .should('have.value', '🌻')
 
@@ -29,7 +29,7 @@ describe('Iteration 2 - Making a card', () => {
     .should('have.value', 'Happy birthday!')
   })
 
-  it('should make a card when the button is clicked', () => {
+  it.skip('should make a card when the button is clicked', () => {
     cy.get('#make-card-btn')
     .click()
 
@@ -49,7 +49,7 @@ describe('Iteration 2 - Making a card', () => {
     .contains('Happy birthday!')
   })
 
-  it('should clear fields when card is created', () => {
+  it.skip('should clear fields when card is created', () => {
     cy.get('#make-card-btn')
     .click()
 

@@ -1,6 +1,6 @@
 # Test Driven Development with Cypress & React
 
-For this activity, you've been given a skeleton React app and a full Cypress testing suite. You will use the testing suite to determine what needs to exist in your React application. 
+For this activity, you've been given a skeleton React app and a **complete** Cypress testing suite. You will use the testing suite to determine what needs to exist in your React application. 
 
 ### Set Up
 

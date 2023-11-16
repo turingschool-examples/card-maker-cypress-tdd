@@ -1,7 +1,6 @@
 import './Form.css';
-import { Component } from 'react';
 
-class Form extends Component {
+function Form() {
 
 }
 
